@@ -1,0 +1,142 @@
+/* header styles */
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.left-head{
+    width: 200px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search-bar{
+    width: 200px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding-left: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08) inset;
+}
+
+.right-head{
+    width: 210px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/* section 1 styles */
+
+.title{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.title-blue{
+    color: blue;
+}
+.info{
+    text-align: center;
+    margin-bottom: 25px;
+    padding-left: 170px;
+    padding-right: 170px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.button1{
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+.button1:hover{
+    opacity: 0.7;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.button1:active{
+    opacity: 0.5;
+}
+
+.button2{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+.button2:hover{
+    background-color: blue;
+    color: white;
+    opacity: 0.8;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.button2:active{
+    opacity: 0.5;
+}
+
+/* section 2 styles */
+
+.board{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.formatting{
+    width: 310px;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: left;
+}
+
+.ifrm{
+    width: 300px
+}
+
+.imag{
+    width: 325px;
+}
+
+
+/* footer styles */
+
+footer{
+    margin-top: 12px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
