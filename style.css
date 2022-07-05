@@ -62,7 +62,7 @@ ul{
     text-align: center;
 }
 
-.button1{
+#button1{
     background-color: blue;
     color: white;
     border: 1px solid blue;
@@ -72,15 +72,15 @@ ul{
     cursor: pointer;
     transition: background-color 0.15s;
 }
-.button1:hover{
+#button1:hover{
     opacity: 0.7;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
-.button1:active{
+#button1:active{
     opacity: 0.5;
 }
 
-.button2{
+#button2{
     background-color: white;
     color: blue;
     border: 1px solid blue;
@@ -90,13 +90,13 @@ ul{
     cursor: pointer;
     transition: background-color 0.15s, color 0.15s;
 }
-.button2:hover{
+#button2:hover{
     background-color: blue;
     color: white;
     opacity: 0.8;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
-.button2:active{
+#button2:active{
     opacity: 0.5;
 }
 
